@@ -9,7 +9,7 @@ const Body = () => {
         <aside className='md:w-1/4 md:block hidden'>
         <AsideBar/>
         </aside>
-        <main className='md:w-3/4 w-full bg-[#222831] rounded-xl'>
+        <main className='md:w-3/4 min-h-[100vh] md:min-h-0 w-full bg-[#222831] rounded-xl'>
         <Main/>
         </main>
 
