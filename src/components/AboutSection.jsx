@@ -62,6 +62,7 @@ const AboutSection = ({ setSection }) => {
             href="https://drive.google.com/file/d/1FMwsHmQmwlf62OtN3v4pbMrSNVRkZLdJ/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
+            className='hover:text-yellow-600 hover:cursor-pointer'
           >
             Front-end Web Development
           </a>
@@ -72,6 +73,7 @@ const AboutSection = ({ setSection }) => {
             href="https://drive.google.com/file/d/1SAc5rYh_Olr9dfzF3SsCVCKJOtsCZUUw/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
+            className='hover:text-yellow-600 hover:cursor-pointer'
           >
             Advanced MERN Development
           </a>
