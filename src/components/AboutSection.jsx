@@ -76,7 +76,16 @@ const AboutSection = ({ setSection }) => {
             Advanced MERN Development
           </a>
         </li>
-      </ul>
+      </ul><br/>
+      <hr className='border-1 text-yellow-600'/>
+      <div className='flex justify-center items-center mt-4 gap-2'>
+      <div className='w-[80px] h-[80px] rounded-full bg-[#31363F]'>
+        <img src='profilea.png' alt='profile' className='w-full h-full object-cover rounded-full'/>
+        </div>
+        <div>
+          <h4 className='text-lg font-semibold'>Thanks for visiting!!</h4>
+          <p className='text-xs  text-gray-300 tracking-tighter'>Feel free to connect for feedback or collaboration.</p>
+      </div></div>
     </div>
   );
 };
