@@ -9,7 +9,7 @@ const AsideBar = (props) => {
       <RxCross1 size={28} className="font-bold text-yellow-600 absolute top-1 right-1 md:hidden" onClick={()=>props.setShowAside(false)}/>
       <section className="profile flex flex-col items-center mt-6">
         <div className="h-[120px] w-[120px] bg-[#31363F] rounded-xl overflow-hidden">
-          <img className="w-full" src="profile.png" alt="profile image" />
+          <img className="w-full" src="profilea.png" alt="profile image" />
         </div>
         <h3 className="text-white text-xl mt-4 font-semibold">
           Subhash Satyarthi
